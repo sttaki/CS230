@@ -1,0 +1,18 @@
+fajl za instalaciju i pokretanje programa.
+instalacija je potrebna pri prvom pokretanju.
+INSTALACIJA:
+pip install fastapi uvicorn
+
+python -m pip install fastapi uvicorn
+
+python -m pip install python-multipart
+
+POKRETANJE:
+Postoje vise nacina pokretanja servera:
+1. python server.py
+2. python -m uvicorn server:aplikacija --reload --host 127.0.0.1 --port 8000
+
+pokretanje klijenta:
+python client.py
+FastAPI docs (Swagger), preko kog moze da se testira rad otpremanja i preuzimanja fajlova.
+http://127.0.0.1:8000/docs 
